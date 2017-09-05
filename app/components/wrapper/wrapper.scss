@@ -1,0 +1,16 @@
+@import '../../styles/variables';
+
+.wrapper {
+  width: auto;
+  margin: 0 auto;
+  padding: 0 10px;
+
+  @media #{$media-screen-tablet} {
+    padding: 0 20px;
+  }
+
+  @media #{$media-screen-desktop} {
+    padding: 0 5px;
+    max-width: 985px;
+  }
+}

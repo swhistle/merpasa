@@ -1,0 +1,29 @@
+$tablet: 600px;
+$desktop: 1024px;
+$desktop-big: 1400px;
+
+$media-screen-tablet: '(min-width: #{$tablet})';
+$media-screen-desktop: '(min-width: #{$desktop + 1})';
+$media-screen-desktop-big: '(min-width: #{$desktop-big})';
+
+$color-white: #fff;
+$color-light-grey: #eee;
+$color-grey: #aaa;
+$color-dark-grey: #333;
+$color-dark-grey-4: #444;
+$color-blue: #48b;
+$color-red: #b44;
+
+@mixin position-absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@mixin background-icons {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

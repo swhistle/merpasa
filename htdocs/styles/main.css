@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  margin: 0;
+  background: #fff;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+.nowrap {
+  display: inline-block;
+  white-space: nowrap;
+}
