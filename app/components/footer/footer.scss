@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+
+.footer {
+  width: 100%;
+  //min-height: 210px;
+  padding: 0 20px;
+  padding-top: 65px;
+  padding-bottom: 15px;
+  background-color: rgba($color-blue, 0.9);
+  box-shadow: 0px -10px 18px 0px rgba(40, 61, 77, 0.4);
+  position: absolute;
+  bottom: 0;
+  color: $color-white;
+
+  &__info {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 70px;
+    margin-bottom: 45px;
+
+    &-tel {
+      display: inline-block;
+      text-decoration: none;
+      color: $color-white;
+    }
+  }
+
+  &__copyright {
+    text-align: center;
+  }
+}

@@ -7,7 +7,7 @@ $media-screen-desktop: '(min-width: #{$desktop + 1})';
 $media-screen-desktop-big: '(min-width: #{$desktop-big})';
 
 $color-white: #fff;
-$color-blue: #024b9d;
+$color-blue: #02359d;
 
 @mixin position-absolute {
   position: absolute;
