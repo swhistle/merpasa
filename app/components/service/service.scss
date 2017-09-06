@@ -1,0 +1,49 @@
+@import '../../styles/variables';
+
+.service {
+
+  &__list {
+    max-width: 1880px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 20%;
+    height: auto;
+    overflow: hidden;
+    //background: url('../images/1.jpg') no-repeat;
+    //background-size: cover;
+    position: relative;
+  }
+
+  &__front {
+    width: 100%;
+
+    img {
+      //object-fit: cover;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__link {
+    position: absolute;
+    margin: auto;
+    top: 50px; left: 0; right: 0;
+    display: inline-block;
+    width: 90%;
+    height: auto;
+    padding: 30px;
+    background-color: $color-blue;
+    text-decoration: none;
+    color: $color-white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+
+}
