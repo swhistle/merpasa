@@ -9,6 +9,7 @@
   background-color: rgba($color-blue, 0.9);
   box-shadow: 0px -10px 18px 0px rgba(40, 61, 77, 0.4);
   position: absolute;
+  z-index: 30;
   bottom: 0;
   color: $color-white;
 
@@ -20,7 +21,9 @@
     padding: 0 70px;
     margin-bottom: 45px;
 
-    &-tel {
+    &-tel,
+    &-logo,
+    &-email {
       display: inline-block;
       text-decoration: none;
       color: $color-white;

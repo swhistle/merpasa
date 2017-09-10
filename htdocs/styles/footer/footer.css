@@ -6,6 +6,7 @@
   background-color: rgba(2, 53, 157, 0.9);
   box-shadow: 0px -10px 18px 0px rgba(40, 61, 77, 0.4);
   position: absolute;
+  z-index: 30;
   bottom: 0;
   color: #fff;
 }
@@ -26,7 +27,7 @@
   margin-bottom: 45px;
 }
 
-.footer__info-tel {
+.footer__info-tel, .footer__info-logo, .footer__info-email {
   display: inline-block;
   text-decoration: none;
   color: #fff;
