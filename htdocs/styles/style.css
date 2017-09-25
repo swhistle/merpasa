@@ -30,6 +30,10 @@
   transition: 1s ease;
 }
 
+.service__item--inner {
+  margin-right: auto;
+}
+
 .service__front {
   width: 100%;
   position: relative;
@@ -57,7 +61,6 @@
   width: 90%;
   height: auto;
   padding: 30px;
-  background-color: #02359d;
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
@@ -108,7 +111,6 @@
   padding: 0 20px;
   padding-top: 65px;
   padding-bottom: 15px;
-  background-color: rgba(2, 53, 157, 0.9);
   box-shadow: 0px -10px 18px 0px rgba(40, 61, 77, 0.4);
   position: absolute;
   z-index: 30;

@@ -1,5 +1,4 @@
-(function() {
-  //переход по ссылке
+//переход по ссылке
   var linkPage = document.querySelectorAll(".js-link");
 
   linkPage.forEach(function(link, i) {
@@ -22,4 +21,3 @@
       xhr.send();
     });
   });
-})();

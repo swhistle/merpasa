@@ -12,7 +12,6 @@
     justify-content: center;
     //perspective: 900px;
     //transform-style: preserve-3d;
-
   }
 
   &__item {
@@ -26,6 +25,10 @@
     //transform-origin: 50% 50% -250px;
     //transform-style: preserve-3d;
     transition: 1s ease;
+
+    &--inner {
+      margin-right: auto;
+    }
   }
 
   &__front {
@@ -54,7 +57,7 @@
     width: 90%;
     height: auto;
     padding: 30px;
-    background-color: $color-blue;
+    //background-color: $color-blue;
     text-decoration: none;
     color: $color-white;
     text-transform: uppercase;
